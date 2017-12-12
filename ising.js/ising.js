@@ -312,14 +312,13 @@ function hidden_link_download(uri, filename){
 }
 
 function download_measurements(){
-    var csv = "data:text/csv;charset=utf-8,";
-    csv += "# time, energy per spin, magnetization per spin\n";
+    var data = "# time, energy per spin, magnetization per spin\n";
     for (var i=0; i<times.length; i++){
-        csv += times[i]+", ";
-        csv += gtimeseries_energy[i]+", ";
-        csv += gtimeseries_mag[i]+"\n";
+        data += times[i]+", ";
+        data += gtimeseries_energy[i]+", ";
+        data += gtimeseries_mag[i]+"\n";
     }
-    var encoded = encodeURI(csv);
+    var encoded = "data:text/csv;charset=utf-8," + encodeURIComponent(data);
     hidden_link_download(encoded, 'ising-data.txt');
 }
 
