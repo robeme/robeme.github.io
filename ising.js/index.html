@@ -34,7 +34,7 @@
             <br>
             <div>
                 <label class='eb_label' for="temp" title="Temperature">Temperature</label>
-                <input style='width:150px;' type="range" id="temp" min=-5 max=2 step=0.000001 value=0 oninput='update_temp()' onchange="update_temp()"></input>
+                <input style='width:150px;' type="range" id="temp" min=-5 max=2 step=0.000001 value=1 oninput='update_temp()' onchange="update_temp()"></input>
                 <span onclick='dotextbox(this.id)' class='eb_span' id="label_temp"></span>
                 <input style='width: 80px; display: none;' id='label_temp_input' type='text' value='' onblur='undotextbox(this.id)'>
             </div>
@@ -59,11 +59,11 @@
                 <label class='eb_label' for='num'>Lattice size</label>
                 <select id='changenum' onchange='change_num()'>
                     <option value="512">512</option>
-                    <option value="256" selected="selected">256</option>
+                    <option value="256">256</option>
                     <option value="128">128</option>
                     <option value="64">64</option>
                     <option value="32">32</option>
-                    <option value="16">16</option>
+                    <option value="16" selected="selected">16</option>
                 </select>
             </div>
             <div class="withspace">
