@@ -7,8 +7,8 @@ var gbuffer;
 var gbufferdata;
 
 var gboard = null;
-var gN = 256;
-var gT = 2.26918531421;
+var gN = 16//256;
+var gT = 0.0//2.26918531421;
 var gfield = 0;
 
 var ge_avg, ge_var, gm_avg, gm_var;
