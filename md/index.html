@@ -312,21 +312,11 @@
 of simple atoms and molecules in a two-dimensional
 universe.  The force between the atoms is weakly attractive at short distances,
 but strongly repulsive when they touch.  Use the simulation to explore 
-<a href="http://www.chem.purdue.edu/gchelp/liquids/character.html">phases of matter</a>, 
+<a href="http://itl.chem.ufl.edu/2045_s00/lectures/lec_f.html">phases of matter</a>, 
 <a href="http://en.wikipedia.org/wiki/Emergence">emergent behavior</a>, 
 <a href="http://en.wikipedia.org/wiki/Irreversibility">irreversibility</a>, 
 and <a href="http://en.wikipedia.org/wiki/Equipartition_theorem">thermal effects</a> at the 
 <a href="http://en.wikipedia.org/wiki/Nanotechnology">nanoscale</a>.</p>
-
-<p><b>Note:</b> This version of the simulation includes an enhanced <b>Presets</b> menu to 
-accompany the figures and selected exercises in 
-<a href="http://physics.weber.edu/schroeder/md/InteractiveMD.pdf">the accompanying article</a> (pdf), 
-published in the <a href="http://dx.doi.org/10.1119/1.4901185">American Journal of Physics</a> <b>83</b> (3), 
-210-218 (2015), <a href="http://arxiv.org/abs/1502.06169">arXiv:1502.06169 [physics.ed-ph]</a>.  
-Here is a <a href="exercises.html">version of the 
-exercises from the article</a> that includes specific directions and hints for use with this software.
-For a version of this simulation with the original (shorter) Presets menu, 
-<a href="http://physics.weber.edu/schroeder/md/">click here</a>.</p>
 
 <p><b>The physics:</b></p>
 
@@ -400,9 +390,8 @@ the box size can be changed.</li>
 The temperature is computed from the average kinetic energy, so it isn&rsquo;t accurate
 when there&rsquo;s organized motion on a large scale.  The temperature and pressure are averaged over time.</li>
 
-<li>Be sure to explore the <b>Presets</b>.  (As noted above, most of the presets in this version
-are labeled in correspondence with figures and exercises in the accompanying 
-<a href="http://physics.weber.edu/schroeder/md/InteractiveMD.pdf">article</a>.)</li>
+<li>Be sure to explore the <b>Presets</b>.  (Thanks to <a href="http://www.csupomona.edu/~ajm/">John Mallinckrodt</a> for 
+inspiring several of the presets.)</li>
 
 <li>Sometimes the simulation becomes unstable, producing a runaway effect of exponentially
 increasing energy.  This is a consequence of approximating the relations between 
@@ -491,20 +480,69 @@ if you&rsquo;re running the simulation from your own server or hard drive.</li>
 controls</a>, your browser is probably out of date.</li>
 
 <li>This simulation is computationally intensive!  It typically performs hundreds of basic computations
-per atom per time step.  Yet my personal computer can do this for a thousand atoms at a rate of well over 
-a thousand time steps per second.  As of this writing, the latest versions of all major browsers on 
-traditional computers are quite fast (Opera and Chrome are fastest, followed by Firefox, and then by Safari
+per atom per time step.  Yet my personal computer can do this for a thousand atoms at a rate of two thousand
+time steps per second.  As of this writing, the latest versions of all major browsers on traditional
+computers are quite fast (Opera and Chrome are fastest, followed by Firefox, and then by Safari
 and Internet Explorer). Performance on mobile devices and their browsers varies enormously.</li>
 
 <li>You are currently running version 1.0 of this simulation, last modified on August 6, 2014.
-I apologize for the lack of full support for certain touch-screen devices and browsers. I hope 
-to improve touch-screen support in a future version, but the lack of standardization makes this 
-difficult. Future versions will be posted at 
-<a href="http://physics.weber.edu/schroeder/md/">http://physics.weber.edu/schroeder/md/</a>.</li>
+The program still has a few glitches that I hope to fix eventually.  I apologize for the lack of full 
+support for certain touch-screen devices and browsers. I hope to improve touch-screen support 
+in the future, but the lack of standardization makes this difficult.</li>
 
 <li>To look at the HTML5/JavaScript source code, just use your browser&rsquo;s View Source 
 or Page Source command (possibly hidden under a &ldquo;Developer&rdquo; menu).  
 I&rsquo;ve tried to make the code human-readable, with comments and such.</li>
+
+</ul>
+
+<p><b>Of related interest:</b></p>
+
+<ul>
+
+<li><a href="InteractiveMD.pdf">Interactive Molecular Dynamics article</a> (pdf), published in
+the <a href="http://dx.doi.org/10.1119/1.4901185">American Journal of Physics</a> <b>83</b> (3), 
+210-218 (2015), <a href="http://arxiv.org/abs/1502.06169">arXiv:1502.06169 [physics.ed-ph]</a>. 
+Here is a <a href="InteractiveMD.html">version of this simulation</a> 
+with an enhanced Presets menu to accompany the illustrations and selected exercises in the article.
+Here is a <a href="exercises.html">version of the exercises</a> that includes specific directions
+and hints for use with this software.</li>
+
+<li><a href="http://physics.weber.edu/schroeder/software/MDApplet.html">Older Java version of this
+simulation</a>.
+
+<li>Here's a <a href="http://physics.weber.edu/schroeder/software/demos/MolecularDynamics.html">rudimentary version</a>, 
+useful mainly for benchmarking.</li>
+
+<li><a href="http://physics.weber.edu/schroeder/software/">Other software</a> I&rsquo;ve written.</li>
+
+<li>Poster presentation mostly about the Java version of this simulation (pdf):  
+<a href="http://physics.weber.edu/schroeder/software/MDAAposter.pdf">original
+poster version</a>; 
+<a href="http://physics.weber.edu/schroeder/software/MDAAflier.pdf">two-page handout version</a></li>
+
+<li>My <a href="http://physics.weber.edu/schroeder/javacourse/">scientific computing course</a>, 
+including a lab manual that tells you how to write a molecular dynamics simulation from scratch.</li>
+
+<li>Other educational MD software:
+<ul>
+<li style="margin-bottom:0px;"><a href="http://www.ph.biu.ac.il/~rapaport/java-apps/index.html">Applets by D. Rapaport</a></li>
+<li style="margin-bottom:0px;"><a href="http://stp.clarku.edu/simulations">Open Source Physics applets</a> </li>
+<li style="margin-bottom:0px;"><a href="http://www.physics.orst.edu/~rubin/CPUG/CPlab/MoleDynam/md.html">Applet by
+David Wolff</a></li>
+<li style="margin-bottom:0px;"><a href="http://polymer.bu.edu/vmdl/">Virtual Molecular Dynamics Laboratory</a>
+(free download from Boston University)</li>
+<li style="margin-bottom:0px;"><a href="http://workbench.concord.org/">Molecular Workbench</a> and new
+<a href="http://mw.concord.org/nextgen/">HTML5 version</a></li>
+<li style="margin-bottom:0px;"><a href="http://phet.colorado.edu/en/simulation/states-of-matter">PhET
+States of Matter simulation</a></li>
+<li><a href="http://www.starkdesign.com">Atomic Microscope</a> was a commercial MD simulation
+for Windows and Mac Classic.  It no longer seems to be available, but there&rsquo;s now a very similar
+iPad app called <a href="http://www.atomsinmotion.com/">Atoms in Motion</a>.</a></li>
+</ul></li>
+
+<li>Phun, the predecessor of <a href="http://www.algodoo.com/">Algodoo</a>, inspired some of the 
+features of this simulation.</li>
 
 </ul>
 
@@ -521,7 +559,7 @@ into one another.</i>  In that one sentence, you will see, there is an <i>enormo
 information about the world, if just a little imagination and thinking are applied.&rdquo;
 </blockquote>
 <p style="text-align:right; margin-top:3px;">
-&mdash;<a href="http://www.feynmanlectures.caltech.edu/I_01.html#Ch1-S2">Richard Feynman</a></p>
+&mdash;Richard Feynman</p>
 </p>
 
 <hr><p>
