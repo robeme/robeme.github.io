@@ -1,5 +1,5 @@
-# robeme's github page
+# Interactive Teaching
 
-you'll find here some (modified) tools for educational purposes:
+You'll find here some (modified) tools for educational purposes:
 * [ising.js](https://robeme.github.io/ising.js) forked from https://mattbierbaum.github.io/ising.js/
-* md from http://physics.weber.edu/schroeder/md/ - https://robeme.github.io/md
+* [md](https://robeme.github.io/md) forked from http://physics.weber.edu/schroeder/md/
